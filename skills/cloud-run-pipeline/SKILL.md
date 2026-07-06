@@ -1,6 +1,6 @@
 ---
 name: cloud-run-pipeline
-description: Use when setting up continuous deployment / a CI/CD pipeline that deploys to Google Cloud Run from any CI tool (GitHub Actions, GitLab CI, Jenkins, Buildkite, Cloud Build), or when the user mentions "cloud run ci", "deploy cloud run from github actions", "workload identity federation", "gcp deploy service account", or "rig a pipeline for cloud run".
+description: Use when setting up continuous deployment / a CI/CD pipeline that deploys to Google Cloud Run from any CI tool (GitHub Actions, GitLab CI, Jenkins, Buildkite, Cloud Build), or when the user mentions "cloud run ci", "deploy cloud run from github actions", "workload identity federation", or "rig a pipeline for cloud run".
 ---
 
 # Rig a CI/CD pipeline for Cloud Run
