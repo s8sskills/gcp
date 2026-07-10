@@ -30,6 +30,7 @@ where the agent picks it up automatically when a task matches the skill's
 | --- | --- |
 | [`gcloud-project-setup`](skills/gcloud-project-setup/SKILL.md) | gcloud CLI auth, active project, billing, and enabling the serverless APIs. Foundation the others build on. |
 | [`cloud-run-deploy`](skills/cloud-run-deploy/SKILL.md) | Deploy any container / web app / API to Cloud Run (source or image), with env vars, secrets, scaling, and verification. |
+| [`cloud-run-agent-memory`](skills/cloud-run-agent-memory/SKILL.md) | Set up persistent serverless memory/chat history for Cloud Run AI agents using Firestore Native and IAM service accounts. |
 | [`cloud-functions-deploy`](skills/cloud-functions-deploy/SKILL.md) | Deploy a single HTTP or event-driven function (Cloud Functions 2nd gen / Cloud Run functions). |
 | [`firebase-deploy`](skills/firebase-deploy/SKILL.md) | Deploy a frontend to Firebase Hosting and/or a backend to Cloud Functions for Firebase. |
 
@@ -42,6 +43,7 @@ a `SKILL.md` whose YAML frontmatter declares `name` and `description`:
 skills/
   gcloud-project-setup/SKILL.md
   cloud-run-deploy/SKILL.md
+  cloud-run-agent-memory/SKILL.md
   cloud-functions-deploy/SKILL.md
   firebase-deploy/SKILL.md
 ```
